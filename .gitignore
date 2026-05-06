@@ -1,0 +1,23 @@
+# Python cache and bytecode
+__pycache__/
+*.py[cod]
+*.pyo
+*.pyd
+
+# Virtual environments
+.venv/
+venv/
+
+# Training artifacts
+training/output/
+checkpoints/
+*.safetensors
+
+# Local compiled/runtime caches
+unsloth_compiled_cache/
+AI_CACHE/
+
+# Editor/OS
+.vscode/
+.DS_Store
+Thumbs.db
